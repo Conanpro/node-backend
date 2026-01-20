@@ -13,6 +13,7 @@ const depthLimit = require("graphql-depth-limit");
 const { createComplexityLimitRule } = require("graphql-validation-complexity");
 app.use(cors());
 
+console.log(DB_HOST);
 db.connect(DB_HOST);
 
 const getUser = (token) => {
