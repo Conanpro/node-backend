@@ -1,9 +1,9 @@
-const Blog = require('./blog')
-const User = require('./user')
+const Blog = require("./blog")
+const User = require("./user")
 
 const models = {
-    Blog,
-    User
+  Blog,
+  User,
 }
 
 module.exports = models
