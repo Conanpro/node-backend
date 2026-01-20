@@ -1,0 +1,28 @@
+{
+  "name": "social-media-server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Conan",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "3.10.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "date-fns": "^2.23.0",
+    "dotenv": "16.0.1",
+    "express": "^4.17.1",
+    "graphql": "^15.5.1",
+    "graphql-depth-limit": "^1.1.0",
+    "graphql-iso-date": "^3.6.1",
+    "graphql-validation-complexity": "^0.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.13.2",
+    "nodemon": "2.0.19"
+  },
+  "keywords": []
+}
