@@ -1,4 +1,6 @@
-import { set, connect as _connect, connection } from "mongoose"
+import mongoose from "mongoose"
+
+const { set, connect as _connect, connection } = mongoose
 
 export async function connect(DB_HOST) {
   try {
