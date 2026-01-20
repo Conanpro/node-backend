@@ -1,6 +1,6 @@
 import mongoose from "mongoose"
 
-const { set, connect as _connect, connection } = mongoose
+const { set, connect: _connect, connection } = mongoose
 
 export async function connect(DB_HOST) {
   try {
