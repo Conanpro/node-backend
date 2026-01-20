@@ -1,8 +1,9 @@
-import mongoose from "mongoose"
+import mongoose from "mongoose";
 
-const { set, connect: _connect, connection } = mongoose
+const { set, connect: _connect, connection } = mongoose;
 
 export async function connect(DB_HOST) {
+  console.log(DB_HOST);
   try {
     set("strictQuery", false)
     set("useNewUrlParser", true)
